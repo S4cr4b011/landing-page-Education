@@ -40,15 +40,11 @@ a {
   font-weight: 700;
   color: #130516 !important;
 }
-.nav-link:hover {
-  border-bottom: 1px solid rgba(0, 0, 0, 5);
-  
-  
-}
+
 .button-login {
   background-color: #2b5ce2;
   color: #fafafa;
-  padding: 3px 25px;
+  padding: 3px 30px;
   border-radius: 15px 15px 15px 15px;
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 16px;
@@ -466,7 +462,7 @@ color: #18091b;
     flex-direction: column;
     height: 100%;
   }
-
+ 
   .hero-inicio .contenido-hero img {
     max-width: 100%;
     height: auto;
