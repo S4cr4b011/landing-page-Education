@@ -464,6 +464,7 @@ color: #18091b;
   .hero-inicio {
     display: flex;
     flex-direction: column;
+    height: 100%;
   }
 
   .hero-inicio .contenido-hero img {
