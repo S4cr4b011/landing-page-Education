@@ -10,7 +10,7 @@
 }
 body {
   background-color: #fafafa;
-  font-family: "Open Sans", sans-serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -35,7 +35,16 @@ a {
 }
 
 /* header */
-
+.nav-link {
+  font-size: 20px;
+  font-weight: 700;
+  color: #130516 !important;
+}
+.nav-link:hover {
+  border-bottom: 1px solid rgba(0, 0, 0, 5);
+  
+  
+}
 .button-login {
   background-color: #2b5ce2;
   color: #fafafa;
@@ -448,6 +457,10 @@ color: #18091b;
 
 /* movil*/
 @media screen and (max-width: 576px) {
+  .navbar-brand {
+    font-size: 25px !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
   .hero-inicio {
     display: flex;
     flex-direction: column;
@@ -463,6 +476,25 @@ color: #18091b;
     line-height: normal;
     
   }
+  .hero-inicio .contenido-hero p {
+    font-size: 17px;
+    font-weight: 400;
+    
+  }
+  .botones-hero .boton-hero-color {
+    margin: 0 2px;
+    padding: 10px 15px;
+    background-color: #2b5ce2;
+    color: #fafafa;
+    border-radius: 15px 15px 15px 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+  }
+  .botones-hero .boton-hero-nocolor {
+    color: rgb(26, 5, 28);
+  
+  }
+
   .beneficio {
     width: 100% !important;
 
@@ -475,6 +507,7 @@ color: #18091b;
   
 }
 @media (min-width: 992px) { 
+
   .contact .content_contacto .info_contact {
     padding: 20px !important;
     
