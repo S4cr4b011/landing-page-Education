@@ -5,6 +5,9 @@
   margin: 0;
   box-sizing: border-box;
 }
+:root{
+  scroll-behavior: smooth;
+}
 body {
   background-color: #fafafa;
   font-family: "Open Sans", sans-serif;
@@ -466,8 +469,8 @@ color: #18091b;
   }
 
   .dividir-beneficio .list-beneficio {
-    max-width: 160px;
-    min-width: 50px;
+    max-width: 180px;
+  
   }
   
 }
