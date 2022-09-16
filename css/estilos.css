@@ -458,7 +458,7 @@ color: #18091b;
 /* movil*/
 @media screen and (max-width: 576px) {
   .navbar-brand {
-    font-size: 25px !important;
+    font-size: 30px !important;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   .hero-inicio {
@@ -471,7 +471,7 @@ color: #18091b;
     height: auto;
   }
   .hero-inicio .contenido-hero h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: bold;
     line-height: normal;
     
@@ -482,16 +482,13 @@ color: #18091b;
     
   }
   .botones-hero .boton-hero-color {
-    margin: 0 2px;
-    padding: 10px 15px;
-    background-color: #2b5ce2;
-    color: #fafafa;
-    border-radius: 15px 15px 15px 15px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    cursor: pointer;
+    
+    padding: 10px 15px !important;
+   
   }
   .botones-hero .boton-hero-nocolor {
-    color: rgb(26, 5, 28);
+    
+    padding: 10px 15px !important;
   
   }
 
@@ -501,7 +498,8 @@ color: #18091b;
   }
 
   .dividir-beneficio .list-beneficio {
-    max-width: 180px;
+    max-width: 200px;
+    min-width: 170px;
   
   }
   
